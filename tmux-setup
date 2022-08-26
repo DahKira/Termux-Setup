@@ -1,0 +1,18 @@
+#!/bin/bash
+
+apt update && upgrade
+
+clear
+
+apt install emacs && apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install git && apt install python3
+
+clear
+
+pip install discord && pip install pybooru
+
+clear
+
+echo 'set-up complete!'
+
+#this is un-tested
+#and may be full of errors or not idk
