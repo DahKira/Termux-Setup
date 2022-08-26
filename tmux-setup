@@ -10,7 +10,13 @@ clear
 
 pkg install wget
 
-apt install emacs && apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install git && apt install python3
+#apt install nano
+
+#apt install vim
+
+apt install emacs
+
+apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install git && apt install python3
 
 clear
 
