@@ -1,16 +1,32 @@
 #!/bin/bash
 
+#update to ensure everything goes smoothly
+
 apt update && upgrade
 
 clear
+
+#package installs
+
+pkg install wget
 
 apt install emacs && apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install git && apt install python3
 
 clear
 
+#installation of Androfetch
+
+wget https://raw.githubusercontent.com/laraib07/androfetch/main/androfetch && chmod u+x androfetch && mv androfetch $PREFIX/bin/
+
+clear
+
+#pip installs
+
 pip install discord && pip install pybooru
 
 clear
+
+#useless reminder that it's finished
 
 echo 'set-up complete!'
 
