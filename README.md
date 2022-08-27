@@ -1,2 +1,2 @@
-A simple bash script for my own personal use for
-fresh Termux installs.
+A simple bash script for my personal use in a
+fresh Termux install.
