@@ -12,7 +12,7 @@ pkg install wget
 
 apt install emacs
 
-apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install git && apt install python3
+apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install python3
 
 clear
 
