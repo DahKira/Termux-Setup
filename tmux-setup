@@ -4,20 +4,26 @@
 
 apt-get update && apt-get upgrade
 
+
 clear
+
 
 #package installs
 
 apt-get install wget emacs mpv cava android-tools python3
 
+
 clear
+
+
+pip install --user -r requirements.txt
 
 wget https://raw.githubusercontent.com/laraib07/androfetch/main/androfetch && chmod u+x androfetch && mv androfetch $HOME/.local/bin/
 
+
 clear
+
 
 #useless reminder that it's finished
 
 echo 'set-up complete!'
-
-#this is un-tested and may be full of errors or not idk
