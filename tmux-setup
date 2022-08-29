@@ -2,38 +2,22 @@
 
 #update to ensure everything goes smoothly
 
-apt update && upgrade
+apt-get update && apt-get upgrade
 
 clear
 
 #package installs
 
-pkg install wget
-
-apt install emacs
-
-apt install mpv && apt install cava && apt install android-tools && apt install ani-cli && apt install python3
+apt-get install wget emacs mpv cava android-tools python3
 
 clear
 
-#installation of Androfetch
-
-wget https://raw.githubusercontent.com/laraib07/androfetch/main/androfetch && chmod u+x androfetch && mv androfetch $PREFIX/bin/
-
-clear
-
-#pip installs
-
-pip install discord && pip install pybooru
+wget https://raw.githubusercontent.com/laraib07/androfetch/main/androfetch && chmod u+x androfetch && mv androfetch $HOME/.local/bin/
 
 clear
 
 #useless reminder that it's finished
 
 echo 'set-up complete!'
-
-cd ..
-
-rm -rf Termux-Setup
 
 #this is un-tested and may be full of errors or not idk
